@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Jekyll ve Bay Hyde</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <img src="Dr. Jekyll.PNG" id="Jekyll">
+
+    <script> 
+
+        function donus()
+        {
+        var img = document.getElementById("Jekyll");
+        img.src="Bay Hyde.PNG";
+        document.body.style.background = "url('Hyde Arka Plan.png')";
+        return false;
+        }
+        
+        </script>
+
+    <img src="Kimyasal.PNG" onclick="donus();">
+    <p>Hazırlayan: Demir Konar</p>
+</body>
+</html>
